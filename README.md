@@ -15,7 +15,7 @@ This project demonstrates how to build a simple clock using the Arduino Uno R4. 
 ## Installation
 1. Clone this repository:
     ```bash
-    git clone https://github.com/yourusername/ArduinoUnoR4-Clock.git
+    git clone https://github.com/oguzgundogdu/ArduinoUnoR4-Clock
     ```
 2. Open the `.ino` file in the Arduino IDE.
 3. Install required libraries:
