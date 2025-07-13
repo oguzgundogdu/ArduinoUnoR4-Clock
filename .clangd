@@ -1,0 +1,21 @@
+CompileFlags:
+  Add:
+    - -std=c++17
+    - -Wall
+    - -Wextra
+    - -pedantic
+    - -O2
+    - -g
+    - -isystem
+    - /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1
+    - -isystem
+    - /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include
+    - -D__APPLE__
+    - -D__clang__
+    - -mmacosx-version-min=10.15
+    - -I/Users/oguzgundogdu/Projects/ArduinoUnoR4-Clock/.pio/libdeps/uno_r4_wifi/RTClib/src
+    - -I/Users/oguzgundogdu/Projects/ArduinoUnoR4-Clock/.pio/libdeps/uno_r4_wifi/MD_MAX72XX/src
+    - -I/Users/oguzgundogdu/Projects/ArduinoUnoR4-Clock/.pio/libdeps/uno_r4_wifi/MD_Parola/src
+    - -I/Users/oguzgundogdu/.platformio/packages/framework-arduinorenesas-uno/libraries/SPI
+    - -I/Users/oguzgundogdu/.platformio/packages/framework-arduinorenesas-uno/libraries/Wire
+    - -I/Users/oguzgundogdu/Projects/ArduinoUnoR4-Clock/.pio/libdeps/uno_r4_wifi/Adafruit BusIO
